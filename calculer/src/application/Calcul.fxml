@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="310.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalculController">
+   <children>
+      <TextField fx:id="txt1" layoutX="53.0" layoutY="66.0" onKeyReleased="#check1" prefHeight="27.0" prefWidth="113.0" promptText="premiere nombre" />
+      <TextField fx:id="txt2" layoutX="53.0" layoutY="114.0" onKeyReleased="#check2" prefHeight="27.0" prefWidth="113.0" promptText="deuxieme nombre" />
+      <Button fx:id="sous" layoutX="159.0" layoutY="169.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="86.0" text="soustraction" />
+      <Button fx:id="add" layoutX="53.0" layoutY="169.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="77.0" text="addition" />
+      <Label fx:id="iblres" layoutX="268.0" layoutY="66.0" prefHeight="17.0" prefWidth="86.0" text="Resultat" textFill="#ee0909">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Text layoutX="122.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculatrice" textAlignment="CENTER" wrappingWidth="161.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="multi" layoutX="53.0" layoutY="226.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="96.0" text="multiplication" />
+      <Button fx:id="division" layoutX="166.0" layoutY="226.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="96.0" text="division" />
+   </children>
+</AnchorPane>
